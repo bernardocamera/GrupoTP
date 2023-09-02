@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+
+    <!-- CSS Externo -->
+    <link rel="stylesheet" href="/css/estilos.css">
+
+
+    <!--Agregar el Favicon-->
+    <link rel="icon" href="img/Argentina-Cliparts.ico">
+</head>
+
+<body>
+
+    <header>
+        <!--Imagen-->
+        <img src="img/pexels-ana-benet-8243038.jpg" alt="foto_montanias" width="25%">
+
+        <nav>
+
+
+            <a href="index.html">Inicio |</a>
+            <a href="#Multimedia">Multimedia |</a>
+            <a href="servicios.html">Servicios |</a>
+            <a href="contacto.html">Contacto</a>
+
+
+        </nav>
+
+
+    </header>
+
+
+    <main>
+
+        <h1>Turismo Alternativo Argentina</h1>
+        <h2>Formulario de Contacto</h2>
+
+        <form action="">
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <!--Nombre-->
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+
+                <!--Apellido-->
+                <label for="apellido">Apellido: </label>
+                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+
+                <!--DNI-->
+                <label for="dni">DNI: </label>
+                <input type="number" size="10" maxlength="10">
+
+                <!--Acompaniantes-->
+                <label for="hijos">Nro. de Acompañantes</label>
+                <input type="number" min="0" max="5" name="acompaniantes">
+
+                <!--Mail-->
+                <label for="mail"></label>
+                <input type="email">
+
+                <!-- Fecha de Nacimiento -->
+                <label for="">Fecha de Nacimiento: </label>
+                <input type="date" min="2018-01-01" max="2023-01-01">
+
+                <!-- Adjuntar imagen -->
+                <label for="foto">Adjuntar archivo: </label>
+                <input type="file">
+
+            </fieldset>
+
+            <br><br>
+
+            
+            <br><br>
+
+            <!-- Comentarios -->
+
+            <label for="comentarios">Deje aquí sus comentarios: </label>
+            <br>
+            <textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea>
+
+            <!-- Botones -->
+
+            <input type="submit" value="Enviar Formulario">
+            <input type="reset" value="Borrar">
+
+
+            <br>
+
+
+
+
+
+        </form>
+
+
+
+        <br><br><br><br>
+        <!-- Mapa -->
+        <h3>Mapa</h3>
+
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168881864!2d-58.384145324813225!3d-34.60373445749814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1692183440298!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </main>
+
+
+    <footer>
+
+        <h4>2023 Codo a Codo Todos los derechos reservados.😎 </h4>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>

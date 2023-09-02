@@ -1,0 +1,46 @@
+/*Esto es un comentario*/
+
+/*Selector universal. Aplica a todos los elementos de la página*/
+*{
+    margin: 5px;
+    padding: 5px;
+
+    background-color: blanchedalmond;
+
+}
+
+
+/* Selector de Etiqueta. Aplica sólo a una etiqueta en particular */
+h1{
+
+color: whitesmoke !important ;
+background-color: navy !important;
+
+}
+
+h2{
+
+border: solid black;
+color: orangered;
+
+
+}
+
+/*Selector de clase, se puede reutilizar*/
+
+.subtitulo{
+
+    margin-left: 50px;
+    color: brown;
+    background-color: darkgray;
+}
+
+/*Selector de id, similar a una clase, pero solo se aplica una vez*/
+
+#texto {
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    margin-right: 10px;
+
+}
