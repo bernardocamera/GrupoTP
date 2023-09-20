@@ -26,6 +26,8 @@ color: orangered;
 
 }
 
+h5{border: dotted blue;
+color: white}
 /*Selector de clase, se puede reutilizar*/
 
 .subtitulo{
