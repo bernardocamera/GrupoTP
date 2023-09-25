@@ -12,35 +12,74 @@
 
 /* Selector de Etiqueta. Aplica sólo a una etiqueta en particular */
 h1{
-
 color: whitesmoke !important ;
 background-color: navy !important;
-
 }
 
 h2{
-
 border: solid black;
 color: orangered;
-
-
 }
 
+h5{border: dotted blue;
+color: white}
 /*Selector de clase, se puede reutilizar*/
 
-.subtitulo{
+h3{background-color: orange;
+color: blue;
+font-family: 'Gochi Hand', cursive;
+}
+   
+.Acme {
+    background-color: black;
+    color: white;
+    font-family: 'Acme'
+}
+.Bangers{
+    background-color: gray;
+    color: black;
+    font-family: "Bangers";
+}
+.Gochi{
+    background-color: red;
+    color: white;
+    font-family: "Gochi Hand";
+}
+.Fugaz{
+    background-color: blue;
+    color: orange;
+    font-family: "Fugaz One";
+}
+.Gloria{
+    background-color: blue;
+    color: white;
+    font-family: "Gloria Hallelujah";
+}
+.Roboto{
+    background-color: green;
+    color: orange;
+    font-family: "Roboto";
+}
+.Shadows{
+    background-color: orangered;
+    color: white;
+    font-family: 'Shadows Into Light';
+}
 
-    margin-left: 50px;
-    color: brown;
-    background-color: darkgray;
+.Yatra{
+    background-color: blue;
+    color: orange;
+    font-family: 'Yatra One', cursive;
 }
 
 /*Selector de id, similar a una clase, pero solo se aplica una vez*/
-
 #texto {
     color: white;
     background-color: darkblue;
     text-align: center;
     margin-right: 10px;
+}
 
+nav{font-family: "bangers";
+color:orange;
 }
