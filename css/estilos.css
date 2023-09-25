@@ -26,10 +26,9 @@ color: white}
 /*Selector de clase, se puede reutilizar*/
 
 h3{background-color: orange;
-color: blue
+color: blue;
 font-family: 'Gochi Hand', cursive;
-font-family: 'Roboto', sans-serif;
-font-family: 'Shadows Into Light', cursive}
+}
    
 .Acme {
     background-color: black;
@@ -62,9 +61,15 @@ font-family: 'Shadows Into Light', cursive}
     font-family: "Roboto";
 }
 .Shadows{
-    background-color: orange;
-    color: blue;
+    background-color: orangered;
+    color: white;
     font-family: 'Shadows Into Light';
+}
+
+.Yatra{
+    background-color: blue;
+    color: orange;
+    font-family: 'Yatra One', cursive;
 }
 
 /*Selector de id, similar a una clase, pero solo se aplica una vez*/
