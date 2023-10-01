@@ -5,23 +5,37 @@
     margin: 5px;
     padding: 5px;
 
-    background-color: blanchedalmond;
+    background-color: #b1c0c8;
+}
+
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+      flex: 1;
+      padding: 20px;
+      background-color: #d3d2d0;
+      min-width: 240px;
+      margin-bottom: 0px;
 }
 
 nav{
     font-family: "bangers";
-    color:orange;
+    color: #5893b6;
     }
 
 h1{
     color: whitesmoke !important ;
-    background-color: navy !important;}
+    background-color: #5893b6 !important;}
 h2{ 
-    color: orangered;
+    color: #605457;
     font-family: "Acme"}
 h3{ 
-    background-color: orange;
-    color: blue;
+    background-color: #ba8935;
+    color: #5893b6;
     font-family: 'Acme';}
 h4{ 
     color: black;
@@ -52,7 +66,4 @@ p{
     color: black;
     font-family: "Gochi Hand";
     font-size: medium;}
-<<<<<<< HEAD
 
-=======
->>>>>>> 49fb968300510a7e4743a83e0e4d1fbce7c0fbbc
