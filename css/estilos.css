@@ -1,85 +1,54 @@
-/*Esto es un comentario*/
+/* fuentes disponibles: "Acme"; "Bangers";"Gochi Hand";"Fugaz One";"Gloria Hallelujah";"Roboto";
+'Shadows Into Light';'Yatra Ome' */
 
-/*Selector universal. Aplica a todos los elementos de la página*/
 *{
     margin: 5px;
     padding: 5px;
 
     background-color: blanchedalmond;
-
 }
 
+nav{
+    font-family: "bangers";
+    color:orange;
+    }
 
-/* Selector de Etiqueta. Aplica sólo a una etiqueta en particular */
 h1{
-color: whitesmoke !important ;
-background-color: navy !important;
-}
+    color: whitesmoke !important ;
+    background-color: navy !important;}
+h2{ 
+    color: orangered;
+    font-family: "Acme"}
+h3{ 
+    background-color: orange;
+    color: blue;
+    font-family: 'Acme';}
+h4{ 
+    color: black;
+    font-family: "Acme";}
+h5{ 
+    border: dotted blue;
+    color: white;
+    font-family: "Acme";}
+p{  
+    font-family: acme;
+    font-size: medium;
+    color: navy;}
 
-h2{
-border: solid black;
-color: orangered;
-}
-
-h5{border: dotted blue;
-color: white}
-/*Selector de clase, se puede reutilizar*/
-
-h3{background-color: orange;
-color: blue;
-font-family: 'Gochi Hand', cursive;
-}
+.TextoFooter{
+    background-color: orange;
+    font-family: "Acme";}
    
-.Acme {
+.TituloDestino {
     background-color: black;
     color: white;
-    font-family: 'Acme'
-}
-.Bangers{
-    background-color: gray;
+    font-family: 'Acme';
+    font-size: medium;}
+.InfoDestino{
+    background-color: orange;
     color: black;
-    font-family: "Bangers";
-}
-.Gochi{
-    background-color: red;
-    color: white;
+    font-family: "Bangers";}
+.ParrafoDestino{
+    color: black;
     font-family: "Gochi Hand";
-}
-.Fugaz{
-    background-color: blue;
-    color: orange;
-    font-family: "Fugaz One";
-}
-.Gloria{
-    background-color: blue;
-    color: white;
-    font-family: "Gloria Hallelujah";
-}
-.Roboto{
-    background-color: green;
-    color: orange;
-    font-family: "Roboto";
-}
-.Shadows{
-    background-color: orangered;
-    color: white;
-    font-family: 'Shadows Into Light';
-}
-
-.Yatra{
-    background-color: blue;
-    color: orange;
-    font-family: 'Yatra One', cursive;
-}
-
-/*Selector de id, similar a una clase, pero solo se aplica una vez*/
-#texto {
-    color: white;
-    background-color: darkblue;
-    text-align: center;
-    margin-right: 10px;
-}
-
-nav{font-family: "bangers";
-color:orange;
-}
+    font-size: medium;}
