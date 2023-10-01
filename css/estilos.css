@@ -6,23 +6,34 @@
     padding: 5px;
 
     background-color: blanchedalmond;
+    font-family: "Acme";
 }
 
 nav{
     font-family: "bangers";
     color:orange;
+    background-color: blue;
     }
 
-h1{
-    color: whitesmoke !important ;
-    background-color: navy !important;}
-h2{ 
+a{background-color: blue;
+    color:white
+}
+
+h1 {
     color: orangered;
-    font-family: "Acme"}
+    font-family: "Acme";
+    font-size: larger;
+}
+
+h2{ 
+    background-color: black;
+    color: white;
+    font-family: 'Acme';
+    font-size: medium;}
 h3{ 
     background-color: orange;
-    color: blue;
-    font-family: 'Acme';}
+    color: black;
+    font-family: "Bangers";}
 h4{ 
     color: black;
     font-family: "Acme";}
@@ -31,28 +42,15 @@ h5{
     color: white;
     font-family: "Acme";}
 p{  
-    font-family: acme;
-    font-size: medium;
-    color: navy;}
+    color: black;
+    font-family: "Gochi Hand";
+    font-size: medium;}
+
+ul{color:navy;
+font-family: "acme";
+}
+
 
 .TextoFooter{
     background-color: orange;
     font-family: "Acme";}
-   
-.TituloDestino {
-    background-color: black;
-    color: white;
-    font-family: 'Acme';
-    font-size: medium;}
-.InfoDestino{
-    background-color: orange;
-    color: black;
-    font-family: "Bangers";}
-.ParrafoDestino{
-    color: black;
-    font-family: "Gochi Hand";
-    font-size: medium;}
-<<<<<<< HEAD
-
-=======
->>>>>>> 49fb968300510a7e4743a83e0e4d1fbce7c0fbbc
