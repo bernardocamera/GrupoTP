@@ -5,35 +5,38 @@
     margin: 5px;
     padding: 5px;
 
-    background-color: blanchedalmond;
-    font-family: "Acme";
+    background-color: #b1c0c8;
+}
+
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex {
+      flex: 1;
+      padding: 20px;
+      background-color: #d3d2d0;
+      min-width: 240px;
+      margin-bottom: 0px;
 }
 
 nav{
     font-family: "bangers";
-    color:orange;
-    background-color: blue;
+    color: #5893b6;
     }
 
-a{background-color: blue;
-    color:white
-}
-
-h1 {
-    color: orangered;
-    font-family: "Acme";
-    font-size: larger;
-}
-
+h1{
+    color: whitesmoke !important ;
+    background-color: #5893b6 !important;}
 h2{ 
-    background-color: black;
-    color: white;
-    font-family: 'Acme';
-    font-size: medium;}
+    color: #605457;
+    font-family: "Acme"}
 h3{ 
-    background-color: orange;
-    color: black;
-    font-family: "Bangers";}
+    background-color: #ba8935;
+    color: #5893b6;
+    font-family: 'Acme';}
 h4{ 
     color: black;
     font-family: "Acme";}
@@ -46,11 +49,3 @@ p{
     font-family: "Gochi Hand";
     font-size: medium;}
 
-ul{color:navy;
-font-family: "acme";
-}
-
-
-.TextoFooter{
-    background-color: orange;
-    font-family: "Acme";}
