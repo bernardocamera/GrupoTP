@@ -1,0 +1,20 @@
+nav{
+    display: flex;
+    font-family: "bangers";
+    color: #BF6565;
+    justify-content: center;
+    background-color: #F2EDEB;
+    padding: 15px 20px;
+    }
+
+    nav a{
+        
+        padding: 10px 10px;
+        text-align: center;
+    }
+
+    nav a:hover{
+        background-color: #D9B918;
+    }
+
+   

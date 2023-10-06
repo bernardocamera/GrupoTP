@@ -1,0 +1,14 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Acme', 'Bangers','Gochi Hand','Fugaz One','Gloria Hallelujah','Roboto';
+}
+
+img{
+    border-radius: 30px;
+}
