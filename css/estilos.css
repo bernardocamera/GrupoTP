@@ -1,51 +1,145 @@
 /* fuentes disponibles: "Acme"; "Bangers";"Gochi Hand";"Fugaz One";"Gloria Hallelujah";"Roboto";
 'Shadows Into Light';'Yatra Ome' */
 
-*{
-    margin: 5px;
-    padding: 5px;
+@import "colores.css";
 
-    background-color: #b1c0c8;
-}
+@import "comunes.css";
+
+@import "header.css";
+
+@import "menu.css";
 
 
-.home {
+.row{
     display: flex;
     flex-wrap: wrap;
 }
 
-.in-flex {
-      flex: 1;
-      padding: 20px;
-      background-color: #d3d2d0;
-      min-width: 240px;
-      margin-bottom: 0px;
+aside{
+    flex: 25%;
+    padding: 20px;
+    
+    background-color:  #f1d3d3;
 }
 
-nav{
-    font-family: "bangers";
-    color: #5893b6;
+
+.main{
+    flex: 75%;
+    justify-content: space-around;
+    height: 400px;
+    background-color: #F2EDEB;
+}
+
+@media screen and (max-width: 700px){
+    nav, .row {
+        flex-direction: column;
     }
+    
+}
 
 h1{
-    color: whitesmoke !important ;
-    background-color: #5893b6 !important;}
+    color: #b39d6e !important ;
+    background-color: #5893b6 !important;
+}
 h2{ 
-    color: #605457;
-    font-family: "Acme"}
+    color: #6b2f2f;
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    font-size: 280%;
+   
+}
 h3{ 
     background-color: #ba8935;
     color: #5893b6;
-    font-family: 'Acme';}
+    font-family: 'Bebas Neue', sans-serif;
+}
+
 h4{ 
-    color: black;
+    color: #BBDDF2;
     font-family: "Acme";}
 h5{ 
     border: dotted blue;
     color: white;
     font-family: "Acme";}
 p{  
+    font-family: acme;
+    font-size: medium;
+    color: navy;}
+
+.TextoFooter{
+    background-color: #8d9490;
+    font-family: "Acme";}
+   
+.TituloDestino {
+    background-color: #BBDDF2;
+    color: #32302b;
+    font-family: 'Acme';
+    font-size: medium;
+}
+.InfoDestino{
+    background-color: #D9CC8B;
+    color: black;
+    font-family: "Bangers";}
+.ParrafoDestino{
     color: black;
     font-family: "Gochi Hand";
     font-size: medium;}
 
+
+/*
+.centrado{
+	margin: 0 auto;
+	padding: 5 10px;
+    background-color: #9f805a;
+    text-align: center;
+    color: #dec1f1;
+    font-family: 'Acme';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+@media screen and (min-width: 52em){
+	.centrado{
+		max-width: 100em;
+	}
+}
+    
+    
+
+    
+    .tarjeta a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .tarjeta a:hover{
+        box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+    }
+    
+    .tarjeta-content{  
+        padding: 1.4em;
+        
+    }
+    
+    .tarjeta-content h2{
+        margin-top: 0;
+        margin-bottom: .5em;
+        font-weight: normal;
+    }
+    
+    .tarjeta-content p{
+        font-size: 95%;
+    }
+    
+    figure{
+        margin: 0;
+    }
+    
+    img{
+        display: block;
+        border:0;
+        width: 100%;
+        height: auto;}
+
+    /*

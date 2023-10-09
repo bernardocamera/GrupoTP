@@ -1,0 +1,12 @@
+
+
+:root{
+    --color-primary:var(--color-primary) #F2EDEB;
+    --color-primary-dark:var(--color-primary-dark) #BF6565;
+
+    --color-secundary:var(--color-secundary) #D9CC8B;
+    --color-secudary-dark:var(--color-secudary-dark) #D9B918;
+
+    --color-blue-light:var(--color-blue-light) #BBDDF2;
+
+}
