@@ -1,0 +1,12 @@
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    flex: 70%;
+    height: 400px;
+    background-color: #F2EDEB;
+    padding: 20px;
+}

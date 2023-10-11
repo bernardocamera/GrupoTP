@@ -9,29 +9,44 @@
 
 @import "menu.css";
 
+@import "slider.css";
 
 .row{
     display: flex;
     flex-wrap: wrap;
 }
 
-aside{
+.main{
+    height: calc(100vh - 200px);
+    width: 100%;
+    background-color: #F2EDEB;
+}
+.main aside{
     flex: 25%;
     padding: 20px;
-    
     background-color:  #f1d3d3;
+   
+
 }
 
 
-.main{
-    flex: 75%;
+.main section{
+    flex: 70%;
     justify-content: space-around;
-    height: 400px;
+    height: 600px;
     background-color: #F2EDEB;
 }
 
+footer{
+    flex: 100%;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #BBDDF2;
+
+}
+
 @media screen and (max-width: 700px){
-    nav, .row {
+    nav, .row, .aside, footer {
         flex-direction: column;
     }
     
@@ -67,7 +82,7 @@ p{
     color: navy;}
 
 .TextoFooter{
-    background-color: #8d9490;
+    
     font-family: "Acme";}
    
 .TituloDestino {
