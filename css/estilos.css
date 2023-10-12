@@ -11,22 +11,31 @@
 
 @import "slider.css";
 
+body{
+    min-height: 100vh;
+   
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .main{
-    height: calc(100vh - 200px);
+    height: calc(100vh - 60px - 40px);
     width: 100%;
     background-color: #F2EDEB;
 }
-.main aside{
+.main aside {
     flex: 25%;
     padding: 20px;
     background-color:  #f1d3d3;
+    border-radius: 6px;
+    border-color: #9c5d5d;
+    position: sticky;
+    margin-top: 20px;
    
-
 }
 
 
@@ -37,16 +46,17 @@
     background-color: #F2EDEB;
 }
 
-footer{
-    flex: 100%;
-    justify-content: space-around;
-    height: 100px;
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #BBDDF2;
-
+    
 }
 
+
 @media screen and (max-width: 700px){
-    nav, .row, .aside, footer {
+    nav, .row, .aside, .footer {
         flex-direction: column;
     }
     
@@ -83,7 +93,11 @@ p{
 
 .TextoFooter{
     
-    font-family: "Acme";}
+    font-family: "Acme";
+    color: #441313;
+    text-align: center;
+    
+}
    
 .TituloDestino {
     background-color: #BBDDF2;
