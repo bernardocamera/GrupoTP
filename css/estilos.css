@@ -89,7 +89,10 @@ h5{
 p{  
     font-family: acme;
     font-size: medium;
-    color: navy;}
+    color: navy;
+    text-align: center;
+}
+
 
 .TextoFooter{
     
