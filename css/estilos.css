@@ -25,8 +25,6 @@
     flex: 25%;
     padding: 20px;
     background-color:  #f1d3d3;
-   
-
 }
 
 
@@ -40,8 +38,9 @@
 footer{
     flex: 100%;
     justify-content: space-around;
-    height: 100px;
-    background-color: #BBDDF2;
+    height: 50px;
+    background-color: #F2EDEB;
+    font-family: "Acme";
 
 }
 
@@ -64,8 +63,8 @@ h2{
    
 }
 h3{ 
-    background-color: #ba8935;
-    color: #5893b6;
+    background-color: #5893b6;
+    color: #b39d6e;
     font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -77,13 +76,12 @@ h5{
     color: white;
     font-family: "Acme";}
 p{  
+    margin:5px;
+    color:navy;
     font-family: acme;
     font-size: medium;
-    color: navy;}
+    }
 
-.TextoFooter{
-    
-    font-family: "Acme";}
    
 .TituloDestino {
     background-color: #BBDDF2;
