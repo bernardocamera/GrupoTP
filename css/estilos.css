@@ -63,9 +63,9 @@ h2{
    
 }
 h3{ 
-    background-color: #5893b6;
-    color: #b39d6e;
+    color: #5893b6;
     font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
 }
 
 h4{ 
@@ -106,6 +106,48 @@ p{
     padding-top: 20px;
 } 
 
+/* maquetacion para consejos */
+
+.contenedor{
+        width: 100%;
+        margin: 10px auto;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: "encabezado encabezado"
+                             "contenido1 contenido2"
+                             "pie pie";
+    }
+    
+    .contenedor > div,
+    .contenedor .encabezado,
+    .contenedor .contenido1,
+    .contenedor .contenido2,
+    .contenedor .pie {
+        padding: 10px;
+        border-radius: 4px;
+    }
+    
+    .contenedor .encabezado{
+       grid-area: encabezado; 
+    }
+    
+    .contenedor .contenido1{
+         grid-area: contenido1; 
+    }
+         
+    .contenedor .contenido2{
+        grid-area: contenido2; 
+    }
+    
+    
+    .contenedor .pie{
+        grid-area: pie; 
+        text-align: center;
+    }
+  
+ 
 /*
 .centrado{
 	margin: 0 auto;
