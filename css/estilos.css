@@ -99,6 +99,13 @@ p{
     font-size: medium;}
 
 
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+} 
+
 /*
 .centrado{
 	margin: 0 auto;
