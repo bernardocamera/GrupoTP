@@ -136,18 +136,58 @@ p{
     .contenedor .contenido1{
          grid-area: contenido1; 
     }
-         
+
     .contenedor .contenido2{
         grid-area: contenido2; 
     }
-    
-    
+
     .contenedor .pie{
         grid-area: pie; 
         text-align: center;
     }
   
  
+
+/* maquetacion para index */
+
+.contenedor1{
+    width: 100%;
+    margin: 10px auto;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: "encabezado encabezado encabezado"
+                         "sidebar contenido1 contenido1"
+                         "sidebar contenido1 contenido1";
+}
+
+.contenedor1 > div,
+.contenedor1 .encabezado,
+.contenedor1 .contenido1,
+.contenedor1 .sidebar,
+.contenedor1 .pie {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.contenedor1 .encabezado{
+   grid-area: encabezado; 
+}
+
+.contenedor1 .contenido1{
+     grid-area: contenido1; 
+}
+
+.contenedor1 .sidebar{
+    grid-area: sidebar; 
+}
+
+.contenedor1 .pie{
+    grid-area: pie; 
+    text-align: center;
+}
+
 /*
 .centrado{
 	margin: 0 auto;

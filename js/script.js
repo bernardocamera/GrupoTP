@@ -50,6 +50,12 @@ form.addEventListener("submit" , e=>{
             entrar=true
     }
 
+    /*Validacion de fecha de nacimiento*/
+    if(fecnac.value.length == 0){
+        warnings += 'La fecha de nacimiento no es válida <br>'
+        entrar=true
+}
+
     /*Validacion del telefono*/
     if(!valAceptadosTel.test(telefono.value)){       
             warnings += 'El teléfono no es válido <br>'
