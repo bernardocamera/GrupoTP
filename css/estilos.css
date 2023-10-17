@@ -44,8 +44,18 @@ footer{
 
 }
 
+.footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: #F2EDEB;
+    
+}
+
+
 @media screen and (max-width: 700px){
-    nav, .row, .aside, footer {
+    nav, .row, .aside, .footer {
         flex-direction: column;
     }
     
@@ -99,15 +109,9 @@ p{
     font-size: medium;}
 
 
-.warnings{
-    width: 200px;
-    text-align: center;
-    margin: auto;
-    padding-top: 20px;
-} 
+
 
 /* maquetacion para consejos */
-
 .contenedor{
         width: 100%;
         margin: 10px auto;
@@ -148,45 +152,72 @@ p{
   
  
 
-/* maquetacion para index */
+/* maquetacion para formulario */
 
-.contenedor1{
+.Contacto{
     width: 100%;
-    margin: 10px auto;
+    margin: 5px auto;
     display: grid;
-    gap: 5px;
+    gap: 2px;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3, auto);
-    grid-template-areas: "encabezado encabezado encabezado"
-                         "sidebar contenido1 contenido1"
-                         "sidebar contenido1 contenido1";
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:"encabezado encabezado encabezado encabezado encabezado" 
+                        "titulo1 titulo1 titulo1 titulo2 titulo2"
+                        "mapa mapa domicilio form form"
+                        "mapa mapa domicilio warning warning";
 }
 
-.contenedor1 > div,
-.contenedor1 .encabezado,
-.contenedor1 .contenido1,
-.contenedor1 .sidebar,
-.contenedor1 .pie {
-    padding: 10px;
+.Contacto > div,
+.Contacto .encabezado,
+.Contacto .form,
+.Contacto .warning,
+.Contacto .domicilio,
+.Contacto .titulo1,
+.Contacto .titulo2,
+.Contacto .mapa{
+    padding: 3px;
     border-radius: 4px;
 }
-
-.contenedor1 .encabezado{
-   grid-area: encabezado; 
+.Contacto .encabezado{
+    grid-area: encabezado;
 }
 
-.contenedor1 .contenido1{
-     grid-area: contenido1; 
+.Contacto .form{
+    grid-area: form;
+} 
+
+.Contacto .domicilio{
+    grid-area: domicilio;
+    /* margin: 100px; */
+    padding-left: 100px;
+} 
+.Contacto .mapa{
+   grid-area: mapa; 
 }
 
-.contenedor1 .sidebar{
-    grid-area: sidebar; 
-}
+.Contacto .titulo1{
+    grid-area: titulo1;
+    background-color: #BBDDF2;
+    color: #32302b;
+    font-family: 'Acme';
+    font-size: medium; 
+ }
 
-.contenedor1 .pie{
-    grid-area: pie; 
+ .Contacto .titulo2{
+    grid-area: titulo2;
+    background-color: #BBDDF2;
+    color: #32302b;
+    font-family: 'Acme';
+    font-size: medium; 
+ }
+
+.Contacto .warning{
+    grid-area: warning; 
+    width: 200px;
     text-align: center;
-}
+    margin: auto;
+    padding-top: 5px;
+ }
 
 /*
 .centrado{

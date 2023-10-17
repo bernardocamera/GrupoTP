@@ -26,11 +26,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&display=swap"
         rel="stylesheet">
- 
+
     <!-- Fontawesome -->
     <script src="https://kit.fontawesome.com/eb244545a8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" />
 </head>
 
 <body>
@@ -38,113 +38,109 @@
     <header>
         <div>
             <!--Imagen-->
-            <img src="img/FOTOS/FOTOS PROYECTO PYTHON/viajertiosheader (1).png" >
+            <img src="img/FOTOS/FOTOS PROYECTO PYTHON/viajertiosheader (1).png">
         </div>
     </header>
-        <nav>
-            <i class="fa-solid fa-mountain-sun"></i><a href="index.html">INICIO </a>
-            <i class="fa-solid fa-book-open"></i><a href="consejos.html">CONSEJOS DE VIAJE </a>
-            <i class="fa-solid fa-temperature-three-quarters"></i><a href="clima.html">EL CLIMA </a>
-            <i class="fa-solid fa-envelope"></i><a href="contacto.html">CONTACTANOS</a>
-           
-        </nav>
-    
+    <nav>
+        <i class="fa-solid fa-mountain-sun"></i><a href="index.html">INICIO </a>
+        <i class="fa-solid fa-book-open"></i><a href="consejos.html">CONSEJOS DE VIAJE </a>
+        <i class="fa-solid fa-temperature-three-quarters"></i><a href="clima.html">EL CLIMA </a>
+        <i class="fa-solid fa-envelope"></i><a href="contacto.html">CONTACTANOS</a>
 
-    <main>
-        <h2>ViArgentinos te acompaña en tu ruta</h2>
-        
-        <div class="TituloDestino">Formulario de contacto con nustro staff</div> 
-        <br>
-        <form action="https://formsubmit.co/bernardo.camera@gmail.com" method="POST" id="form">
-            <fieldset>
-                <legend>Datos Personales</legend>
-
-                <!--Nombre-->
-                <label for="nombre"><em>Nombre:</em></label>
-                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
-              
-                <!--Apellido-->
-                <label for="apellido"><em>Apellido:</em></label>
-                <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
-               
-                <!--DNI-->
-                <label for="dni"><em>DNI:</em></label> 
-                <input type="number" name="dni" id="dni" size="10" maxlength="10">
-                
-                <!--Mail-->
-                <label for="mail"><em>Email:</em></label>
-                <input type="email" name="mail" id="mail">
-               
-                <!-- Fecha de Nacimiento -->
-                <label for="fecnac"><em>Fecha de nacimiento:</em></label>
-                <input type="date" min="2018-01-01" max="2023-01-01" name="fecnac" id="fecnac">
-              
-                <!--Telefono-->
-                <label for="telefono"><em>Teléfono: </em></label>
-                <input type="text" name="telefono" id="telefono" placeholder="Ingrese un teléfono">
+    </nav>
 
 
+    <main class="Contacto">
+        <h2 class="encabezado">ViArgentinos te acompaña en tu ruta</h2>
 
-            </fieldset>
+        <div class="titulo1">Contactate con nuestro staff</div>
 
-            <br><br>
+        <div class="form">
 
-            <!-- Comentarios -->
+            <form action="https://formsubmit.co/bernardo.camera@gmail.com" method="POST" id="form">
 
-            <label for="comentarios">Deje aquí sus comentarios: </label>
-            <br>
-            <textarea name="comentarios" id="comentarios" cols="50" rows="10"></textarea>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <!--Nombre-->
+                    <label for="nombre"><em>Nombre:</em></label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre">
 
-            <!-- Botones -->
-            <hr>
-            <input type="submit" value="Enviar Formulario">
+                    <!--Apellido-->
+                    <label for="apellido"><em>Apellido:</em></label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido">
+                    <br><br>
+                    <!--DNI-->
+                    <label for="dni"><em>DNI:</em></label>
+                    <input type="number" name="dni" id="dni" size="10" maxlength="10">
+                    <!-- Fecha de Nacimiento -->
+                    <label for="fecnac"><em>Fecha de nacimiento:</em></label>
+                    <input type="date" min="2018-01-01" max="2023-01-01" name="fecnac" id="fecnac">
+                    <br><br>
+
+                    <!--Mail-->
+                    <label for="mail"><em>Email:</em></label>
+                    <input type="email" name="mail" id="mail">
+
+                    <label for="telefono"><em>Teléfono: </em></label>
+                    <input type="text" name="telefono" id="telefono" placeholder="Ingrese un teléfono">
+                </fieldset>
+                <label for="comentarios">Deje aquí sus comentarios: </label>
+                <br>
+                <textarea name="comentarios" id="comentarios" cols="50" rows="8"></textarea>
+
+                <!-- Botones -->
+
+                <input type="submit" value="Enviar Formulario">
+                <input type="reset" value="Borrar">
+
+
+            </form>
+        </div>
+
+        <div class="warning">
             <p class="warnings" id="warnings"></p>
-            <input type="reset" value="Borrar">
-            
+        </div>
 
-            <br>
-        </form>
-        <br>
-       
-        <!-- Mapa -->
-        
-        <div class="TituloDestino">Donde encontrarnos</div> 
-        <br>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168881864!2d-58.384145324813225!3d-34.60373445749814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1692183440298!5m2!1ses-419!2sar"
-            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-            Av. 9 de Julio 2990 |
-            Ciudad Autonoma de Buenos Aires |
-            W.app: 341-5985422
-             
-        </main>
+        <div class="titulo2">Donde encontrarnos</div>
 
- </div>
+        <div class="mapa">
 
- <br>
- <footer>
-    2023 ViArgertinos- Descubri las maravillas de nuestro pais
+            <iframe <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25804.748863529734!2d-63.58623547618383!3d-36.054622842361994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c3a7096624b63f%3A0xa41d6bf8b75161c3!2zUXVlbcO6IFF1ZW3DuiwgTGEgUGFtcGE!5e0!3m2!1ses-419!2sar!4v1697493396620!5m2!1ses-419!2sar"
+                width="800" height="380" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="domicilio"> <img src="img/FOTOS/FOTOS PROYECTO PYTHON/ubicacion.png" width="45px"><br> Fench 378-Quemu Quemu-La Pampa<br>
+                  <br><br>
+            <img src="img/FOTOS/FOTOS PROYECTO PYTHON/wapp.png" width="30px"> <br> 3472-5985422 <br><br>
+             <img src="img/FOTOS/FOTOS PROYECTO PYTHON/mail.jfif" width="40px"> <br> contacto@viargentinos.ar </div>
+
+
+    </main>
+
+    <footer class="footer">
+        2023 ViArgertinos- Descubri las maravillas de nuestro pais
         <a href="https://www.instagram.com/" title="Instagram" target="_blank">
             <i class="fa-brands fa-instagram" style="font-size: 25px;"></i>
         </a>
-        
+
         <a href="https://www.youtube.com/" title="Youtube" target="_blank">
             <i class="fa-brands fa-youtube" style="font-size: 25px;"></i>
         </a>
-        
+
         <a href="https://www.facebook.com/" title="Facebook" target="_blank">
             <i class="fa-brands fa-facebook" style="font-size: 25px;"></i>
         </a>
-        
+
         <a href="https://www.whatsapp.com/" title="Whatsapp" target="_blank">
             <i class="fa-brands fa-whatsapp" style="font-size: 30px;"></i>
         </a>
-      
-</footer>
 
-<!-- CONEXION AL SCRIPT DE JS -->
-<script src="js/script.js"></script>
+    </footer>
+
+    <!-- CONEXION AL SCRIPT DE JS -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>

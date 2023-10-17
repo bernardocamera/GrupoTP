@@ -28,42 +28,42 @@ form.addEventListener("submit" , e=>{
 
     /*Validacion del nombre*/
     if(nombre.value.length == 0){
-            warnings += 'El nombre no es válido <br>'
+            warnings += '*El nombre no es válido <br>'
             entrar=true
     }
 
     /*Validacion del apellido*/
     if(apellido.value.length == 0){
-            warnings += 'El apellido no es válido <br>'
+            warnings += '*El apellido no es válido <br>'
             entrar=true
     }
 
     /*Validacion del DNI*/
     if(!valAceptadosNumericos.test(dni.value)){
-            warnings += 'El DNI no es válido <br>'
+            warnings += '*El DNI no es válido <br>'
             entrar=true
     }
 
     /*Validacion del mail*/
     if(!regexEmail.test(mail.value)){
-            warnings += 'El mail no es válido <br>'
+            warnings += '*El mail no es válido <br>'
             entrar=true
     }
 
     /*Validacion de fecha de nacimiento*/
     if(fecnac.value.length == 0){
-        warnings += 'La fecha de nacimiento no es válida <br>'
+        warnings += '*La fecha de nacimiento no es válida <br>'
         entrar=true
 }
 
     /*Validacion del telefono*/
     if(!valAceptadosTel.test(telefono.value)){       
-            warnings += 'El teléfono no es válido <br>'
+            warnings += '*El teléfono no es válido <br>'
             entrar=true
     }
 
     if(entrar){
-        /*warnings += 'Faltan completar campos <br>'*/
+        warnings += 'Faltan completar campos <br>'
         parrafo.innerHTML=warnings
     }else { 
             warnings +='¡Enviado!'
