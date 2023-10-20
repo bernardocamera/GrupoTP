@@ -102,11 +102,14 @@ p{
     color: #32302b;
     font-family: 'Acme';
     font-size: medium;
+    text-align: center;
 }
 .InfoDestino{
     background-color: #D9CC8B;
     color: black;
-    font-family: "Bangers";}
+    font-family: "Bangers";
+    text-align: center;
+}
 .ParrafoDestino{
     color: black;
     font-family: "Gochi Hand";
