@@ -1,6 +1,10 @@
 /* fuentes disponibles: "Acme"; "Bangers";"Gochi Hand";"Fugaz One";"Gloria Hallelujah";"Roboto";
 'Shadows Into Light';'Yatra Ome' */
 
+@import "carrusel.css";
+
+@import "footer.css";
+
 @import "colores.css";
 
 @import "comunes.css";

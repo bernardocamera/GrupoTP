@@ -1,0 +1,13 @@
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px;
+}
+
+.social-media{
+    display: flex;
+    gap: 15px;
+}
