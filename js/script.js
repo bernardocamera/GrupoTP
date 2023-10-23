@@ -49,25 +49,17 @@ function moveToLeft(){
 
 /////////////////////////////////////////////
 
-const nombre = document.getElementById("nombre")
-const apellido = document.getElementById("apellido")
-const dni = document.getElementById("dni")
-const mail = document.getElementById("mail")
-const fecnac = document.getElementById("fecnac")
-const telefono = document.getElementById("telefono")
+if(document.getElementById("nombre")){
+    const nombre = document.getElementById("nombre")
+    const apellido = document.getElementById("apellido")
+    const dni = document.getElementById("dni")
+    const mail = document.getElementById("mail")
+    const fecnac = document.getElementById("fecnac")
+    const telefono = document.getElementById("telefono")
 
-const form = document.getElementById("form")
-const parrafo = document.getElementById("warnings")
-
-const nombre = document.getElementById("nombre")
-const apellido = document.getElementById("apellido")
-const dni = document.getElementById("dni")
-const mail = document.getElementById("mail")
-const fecnac = document.getElementById("fecnac")
-const telefono = document.getElementById("telefono")
-
-const form = document.getElementById("form")
-const parrafo = document.getElementById("warnings")
+    const form = document.getElementById("form")
+    const parrafo = document.getElementById("warnings")
+}
 
 
 form.addEventListener("submit" , e=>{

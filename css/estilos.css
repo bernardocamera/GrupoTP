@@ -15,6 +15,11 @@
 
 @import "slider.css";
 
+.container-navs{
+    display: flex;
+    flex-direction: row;
+}
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -62,6 +67,11 @@ footer{
     nav, .row, .aside, .footer {
         flex-direction: column;
     }
+    .container-navs{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
     
 }
 
