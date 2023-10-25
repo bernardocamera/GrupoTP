@@ -1,4 +1,4 @@
-const str = "contacto.html";
+const str = "contacto";
 if( window.location.href.includes(str))
 {
 console.log ("estas adentro")
@@ -77,7 +77,7 @@ form.addEventListener("submit" , e=>{
 
 })}
 
-const str1 = "clima.html";
+const str1 = "clima";
 if( window.location.href.includes(str1))
 
 {
