@@ -47,25 +47,34 @@
         <ul>
             <i class="fa-solid fa-mountain-sun"></i><a href="index.html">INICIO  </a>
             <i class="fa-solid fa-book-open"></i><a href="consejos.html">CONSEJOS DE VIAJE </a>
-            <i class="fa-solid fa-temperature-three-quarters"></i><a href="clima.hgit tml">EL CLIMA </a>
+            <i class="fa-solid fa-temperature-three-quarters"></i><a href="clima.html">PLANIFICA TU VIAJE </a>
             <i class="fa-solid fa-envelope"></i><a href="contacto.html">CONTACTANOS</a>
         </ul>
     </nav>
 
-    <div class="container-body">
+    <div class="planificacion">
+    <div class="encabezado">
+     <h2>TODA LA INFO PARA PLANIFICAR TU PROXIMA AVENTURA</h2>
+    </div>
+
+  
+    
     <main>
-        <h2>CONSULTA EL CLIMA DE TU DESTINO</h2>
-        <h3>Hace click sobre banner para consultar el clima en otros destinos</h3>
-        <div id="cont_b01d0f6247602df0adbeaa786c5ef86b">
-            <script type="text/javascript" async src="https://www.meteored.com.ar/wid_loader/b01d0f6247602df0adbeaa786c5ef86b">
-
-            </script></div>
+        <div class="clima">
         
-               
-    </main>
+        <div class="TituloDestino">Consulta el clima de tu destino</div>
+        <br>
+        <div id="cont_b01d0f6247602df0adbeaa786c5ef86b">
+        <script type="text/javascript" async src="https://www.meteored.com.ar/wid_loader/b01d0f6247602df0adbeaa786c5ef86b"></script></div>
+        <a href="https://www.meteored.com.ar/tiempo-en_Calingasta-America+Sur-Argentina-San+Juan--1-14020.html">Hace Click para consultar en otro destino</a>
+        
+        
+        </main>
+        
 
-   <br>
-   <div class="container-main">
+        <div class="container-body"></div>
+        <div class="carrousel">
+        <div class="container-main">
         <div class="container-carousel">
             <div class="carruseles" id="slider">
                 <section class="slider-section">
@@ -94,10 +103,51 @@
             <div class="btn-right"> <i class='bx bx-chevron-right' ></i> </div>
         </div>
     </div> 
+    </div>
+
+
+<div class="feriados">
+<div class="TituloDestino">Feriados</div>
 <br>
+    <table class="TituloDestino">
+        <thead>
+            <tr>
+                <th>MES</th>
+                <th>DIA</th>
+                <th>MOTIVO</th>
+            </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+    </table>
+
+<script> 
+        let url = 'http://nolaborables.com.ar/api/v2/feriados/2023'
+    fetch(url)
+        .then(response => response.json())
+        .then(data => mostrarData(data))
+        .catch(error => console.log("Ocurrió un error", error))
+        
+    const mostrarData = (data) => {
+        console.log(data)
+        let body = ''
+        for (let i = 0; i<data.length; i++){
+          
+            body += `<tr> 
+                <td>${data[i].mes}</td>
+                <td>${data[i].dia}</td>
+                <td>${data[i].motivo}</td>
+                </tr>`
+        }
+        
+        document.getElementById("data").innerHTML = body
+    }
+</script>
 </div>
+</div>
+
     <<!-- CONEXION AL SCRIPT DE JS -->
-    <script src="js/script.js"></script>
+    <script src="js/carrousel.js"></script>
         
     <footer class="footer">
         <div class="container-footer">
@@ -121,6 +171,7 @@
                     <i class="fa-brands fa-whatsapp" style="font-size: 30px;"></i>
                 </a>
             </div>
+            soporte@viargentinos.com.ar
         </div>
     </footer>
 
