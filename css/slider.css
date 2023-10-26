@@ -1,3 +1,10 @@
+@media(max-width:768px){
+    .slider{
+    width: 250px !important;
+    height: 500px !important;
+    }
+}
+
 .subir{
     position: relative;
     bottom: 50px;

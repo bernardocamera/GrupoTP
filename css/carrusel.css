@@ -61,12 +61,11 @@
     width: 100%;
     margin: 0px;  
 }
-@media(min-width:768px) {
-    .carrusel{
-        margin: 0px 60px;
-        width: 275px;   
+@media(max-width:768px) {
+    .slider-section img0{
+        width: 275px !important;   
     }
     .carrusel a img{
-        width: 250px;
+        width: 250px !important;
     }   
 }

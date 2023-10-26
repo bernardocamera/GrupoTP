@@ -11,3 +11,10 @@ body{
 img{
     border-radius: 30px;
 }
+
+@media(max-width:768px){
+    img{
+        border-radius: 30px;
+        width: 220px;
+    }    
+}
